@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/Products.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>Products - Myshop</title>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -16,18 +16,27 @@
     
     <nav class="navbar">
         <span class="navbar-toggle" id="navbar-toggle-js">
-            <i class="material-icons" id="responav">toc</i> 
+            <i class="material-icons responav" id="responav">toc</i> 
         </span>
         <a href="../index.html" class="logo"><img id="logoimg" src="../images/myshoplogo.png" alt="logo"></a>
 
         <ul class="main-nav" id="menu-js">
+            <li>
+                <div class="searchBox"  onload="searchbox()">
+                    <input class="searchInput"  type="text" name="" placeholder="Search">
+                    <button class="searchButton" href="#">
+                        <i class="material-icons">
+                            search
+                        </i>
+                    </button>
+                </div>
+        </li>
         <li ><a class="navoptions " href="../index.html">Home</a></li>
         <li ><a class="navoptions activemenu" href="Products.html">Products</a></li>
         <li ><a class="navoptions" href="Contact.html">Contact</a></li>
         <li ><a class="navoptions" href="About.html">About Us</a></li>
         <li ><a class="navoptions" href="Projects.html">Projects</a></li>
-        <li ><a class="navoptions" href="Login.html">Login</a></li>
-        <li ><a class="navoptions" href="Login.html"><i class="material-icons">account_circle</i>
+        <li ><a class="navoptions" href="Login.html"><i class="material-icons loginicon">account_circle</i>
         </a></li>
         </div>
         </ul>

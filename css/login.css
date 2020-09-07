@@ -18,7 +18,7 @@
   }
   .login-form-items {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 10px;
     margin-right: 70px;
     padding-top: 5px;
@@ -285,12 +285,12 @@
 
 .logo{
     position: absolute;
-    top: -20px;
-    left: calc( 50% - 85px );
+    top: 0px;
+    left: calc( 50% - 95px );
 }
 #logoimg{
-    height: 170px;
-    width: 170px;
+    height: 140px;
+    width: 140px;
 }
 @media screen and (max-width: 648px) {
 
@@ -310,10 +310,13 @@
     }
     .modal-content {
       width: 80%;
-      margin: 50% auto;
+      margin: 38% auto;
     }
     .reg-inp-box {
       width: 75%;
+    }
+    #logoimg{
+      margin-left: 25px;
     }
   }
 
@@ -321,15 +324,18 @@
    .container{
     margin-top: calc(28% - 50px);
     margin-left: -50px;
-
    }
+   .reg-inp-box{
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 @media (min-width: 915px) {
     .container{
      margin-top: calc(20% - 50px);
      margin-left: -20px;
- 
     }
+    
  }
 @media (min-width : 1024px){
     .container{
@@ -338,4 +344,8 @@
 
     
     }
+}
+.material-icons{
+  font-size: 50px;
+
 }
