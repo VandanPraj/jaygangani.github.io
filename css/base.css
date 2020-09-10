@@ -4,8 +4,10 @@
   font-family: "Source Sans Pro", sans-serif;
   scroll-behavior: smooth;
 }
+
 .navbar{
-  border-bottom: 1px solid rgba(0, 0, 0, 0.527) ;
+  position: sticky;
+  background-color: rgb(255, 255, 255);
 }
 .main-nav {
   list-style-type: none;
@@ -16,7 +18,7 @@
 #logoimg {
   height: 70px;
   width: auto;
-  margin-left: 30%;
+  margin-left: 20%;
   user-select: none;
 }
 .main-nav li {
@@ -132,7 +134,7 @@
 
 }
 .searchBox:hover{
-  background-color: purple;
+  background-color: #8b05ee;
 
 }
 .searchBox:hover > .searchInput{
@@ -181,8 +183,8 @@ color : white;
     margin-top: -50px;
   }
   .searchButton{
-    top: -40px;
-    left: -107px;
+    top: 0rem;
+    margin-left: 13rem;
     position: relative;
   }
 
