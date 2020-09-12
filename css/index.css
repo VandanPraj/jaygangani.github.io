@@ -127,11 +127,16 @@ img {vertical-align: middle;}
 
 @media only screen and (max-width: 530px) {
 .col-2 img{
+
   display: none;
+}
+.col-2 {
+  flex-basis: 100%;
 }
 .poster-row{
   height: 100vh;
 }
+
 }
 
 .featuring{
@@ -190,3 +195,42 @@ img {vertical-align: middle;}
   background-color: rgb(185, 90, 2) ;
 }
 
+.team{
+  margin-top: 15px;
+  width: 100%;
+  height: 350px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.teamheading{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 2rem;
+}
+.team .imgcard{
+  text-align: center;
+  width: 20%;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.imgcard img{
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px black solid;
+}
+.imgcard img:hover{
+  height: 120px;
+  width: 120px;
+  transition: 0.3s ease;
+}
+.imgcard h2{
+  margin-top: 20px;
+}
+.imgcard p{
+  margin-top: 10px;
+}
