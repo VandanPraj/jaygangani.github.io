@@ -12,9 +12,20 @@ body{
   border-radius: 5px;
   background-color: white;
   max-height: 250px;
-  justify-content: center;
+  justify-content: space-around;
   overflow-x: scroll;
-
+  overflow-y: hidden;
+}
+.products::-webkit-scrollbar{
+  background-color: white;
+  height: 5px;
+}
+.products::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: rgb(206, 206, 206);
+}
+.products::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(151, 151, 151);
 }
 
 .title{
@@ -35,6 +46,8 @@ body{
   text-align: center;
   font-family: arial;
   border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .card img{

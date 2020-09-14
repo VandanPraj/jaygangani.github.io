@@ -250,3 +250,6 @@ a{
 		top: 50%;
 	}
 }
+.navbar{
+	z-index: 11;
+}
