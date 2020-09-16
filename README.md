@@ -1,3 +1,3 @@
-# jaygangani.github.io
-My Shop - The online shopping website 
+# One Tap
+One Tap - The online shopping website 
 You can shop at one tap
